@@ -12,7 +12,14 @@ from Stack import Stack
 # Hint: can use a stack to help
 def reverse(q_orig):
     q_new = Queue([])
+    s_new = Stack([])
     # FIXME
+    while not q_orig.is_empty():
+        s_new.push(q_orig.deq())
+
+    while not s_new.is_empty():
+        q_new.enq(s_new.pop())
+        
     return q_new
 
 def main():
