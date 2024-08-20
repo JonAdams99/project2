@@ -1,7 +1,7 @@
 # MODIFY ME TO IMPLEMENT YOUR SOLUTION
 # TO PROBLEM 1: REVERSE QUEUE
 #
-# NAME:         FIXME
+# NAME:         Jon Adams
 # ASSIGNMENT:   Project 2: Stacks & Queues
 
 from Queue import Queue
